@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bright.eco/sitemap.xml
