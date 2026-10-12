@@ -23,7 +23,3 @@ python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000.
-
-## Deployment
-
-Copy the contents of this folder to the web root of the server. Redirect the old WordPress URLs (`/contact/`, `/imprint/`, `/privacy-policy/`) to the new pages.
