@@ -64,3 +64,26 @@ nav a:hover,nav a[aria-current]{color:#3b8fe0;border-color:transparent}
 .hero h1{display:inline-block;margin:0;padding:20px 15px 10px;font-weight:300;font-size:clamp(22px,3.3vw,49px);line-height:normal;color:#444;background:rgba(102,193,247,.15);border:2px dashed #dcd7d7;border-radius:6px}
 .hero p{font-size:14px;color:#000;margin:clamp(24px,4vw,50px) 0 14px}
 .hero img{width:clamp(60px,7vw,100px);height:auto}
+
+/* mobile fixes */
+.hero{width:100%;overflow:hidden}
+.hero-inner{width:100%;padding-left:16px;padding-right:16px}
+@media(max-width:800px){
+ .hero{aspect-ratio:auto;min-height:480px;max-height:none;background-position:60% bottom}
+ .hero-inner{padding-top:120px}
+ .hero h1{font-size:clamp(22px,7vw,32px);padding:14px 12px 8px}
+ .hero p{margin:28px 0 14px}
+ .hero img{width:80px}
+ .about{padding:40px 0}
+ .about .photo{max-width:280px;display:block;margin:0 auto}
+ .about .container{gap:30px}
+ .item{gap:14px}
+ .item>img{width:56px;height:56px}
+ main.page{padding:110px 0 50px}
+ .mail{font-size:18px;word-break:break-all}
+ .copyright .container{flex-direction:column}
+ nav a{color:#fff;font-size:15px}
+ body.home header{background:transparent}
+ body.home nav{background:rgba(20,20,20,.95)}
+}
+main.page aside h2{font-size:22px}
